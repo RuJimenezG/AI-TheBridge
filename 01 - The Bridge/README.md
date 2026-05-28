@@ -1,129 +1,114 @@
-![!\[Cabecera\](./assets/cabecera_jupyter_markdown.png)](assets/cabecera_thebridge.png)
+![LogoTB](logo.png)
 
-# 📘 Sprint 00
+- [**Descripción**](#descripción)
+- [**Antes de empezar: Sprint_00**](#antes-de-empezar-sprint_00)
+- [**Requisitos previos**](#requisitos-previos)
+- [**Cómo funciona el curso**](#cómo-funciona-el-curso)
+- [**Estructura de los Sprints**](#estructura-de-los-sprints)
+- [**Comentarios y Aclaraciones**](#comentarios-y-aclaraciones)
+- [**Clonar y Actualizar Repositorio con Git Bash**](#clonar-y-actualizar-repositorio-con-git-bash)
 
-## Introducción a las Herramientas — Teoría
+## **Descripción**
 
-En este sprint introductorio se presenta el entorno de trabajo del bootcamp. Aprenderás a usar las herramientas fundamentales que utilizarás durante todo el curso: control de versiones con Git y GitHub, edición de código con VSCode, y notebooks en la nube con Google Colab.
+Bienvenid@s al repositorio principal del Bootcamp Online de AI Engineering de The Bridge.
 
-### 📅 Fechas y Sesiones
+El repositorio se divide en los siguientes módulos principales:
 
-**Duración**: Semana del 25 de Mayo
+1. Python + IA Generativa
+2. Prompt & Context Engineering
+3. Arquitecturas y Modelos de IA
+4. RAG Engineering
+5. AI Agents Engineering
+6. MLOps para IA Generativa
 
-Este sprint se desarrolla en tres sesiones presenciales:
+¡Comenzamos!
 
-| Día | Sesión | Tema | Horario |
-|-----|--------|------|---------|
-| 🔵 Lunes, 25 de Mayo | Welcome Day | Bienvenida al bootcamp + Campus Tour | 19:00 – 21:00 |
-| 🟢 Martes, 26 de Mayo | Sesión 1 | Stack Base para AI Engineering | 19:00 – 21:00 |
-| 🟡 Jueves, 28 de Mayo | Sesión 2 | Configura tu entorno de AI Engineering | 19:00 – 21:00 |
+## **Antes de empezar: Sprint_00**
 
-### ⚠️ Requisitos Previos
+El **Sprint_00** es el punto de partida del bootcamp. No sigue la estructura habitual de Unidades, sino que contiene guías de configuración del entorno que deberás revisar antes de la primera sesión:
 
-Antes de la primera sesión (Martes 26 de Mayo), **DEBES tener configurado lo siguiente**:
+- Uso de **Git** y clonado del repositorio
+- Configuración de **VSCode** y **GitHub Codespaces**
+- Uso de **Google Colab**
+- Introducción a **Jupyter Notebooks** y Markdown
 
-✅ **Cuenta de GitHub** — Creada y con tu repositorio personal creado.  
-✅ **Git y Python instalados** — Para poder trabajar con ellos.  
-✅ **VSCode instalado** — Con las extensiones esenciales (Python, Jupyter, Git Graph)  
-✅ **Google Colab accesible** — Conectado a GitHub y funcionando correctamente
+📌 Si es tu primera vez con alguna de estas herramientas, empieza aquí.
 
-**MUY IMPORTANTE**: Todos los servicios (GitHub, VSCode, Colab) deben estar configurados con el **mismo email que usas en Moodle**. Esto es crítico para sincronizar tu progreso y acceder a los materiales del curso.
+## **Requisitos previos**
 
-Si no tienes todo listo, consulta las guías de esta sección **antes de la Sesión 1** para evitar retrasos.
+Para seguir el bootcamp necesitarás tener instalado:
 
----
+- **Python 3.10+**
+- **Git**
+- Un editor de código — recomendamos **VSCode**
+- **Jupyter Notebook** y acceso a **Google Colab**
 
-## 📂 Contenido de la teoría
+Las guías de instalación y configuración están disponibles en el Sprint_00.
 
----
+## **Cómo funciona el curso**
 
-### 🔧 1. GitHub y tu Repositorio de Clase
+El bootcamp se organiza en **Sprints semanales**. Cada miércoles se abre un nuevo Sprint en el Campus Virtual, que corresponde al trabajo de la semana siguiente.
 
-🔗 [Abrir documento](./guia_uso_git.md)
+Cada Sprint contiene varias **Unidades temáticas**. Cada Unidad se compone de los siguientes elementos:
 
-Esta guía te explica qué es Git y GitHub, y cómo usarlos para gestionar tu código, clonar repositorios y mantener tu trabajo sincronizado con el del bootcamp.
+- 📖 **Teoría** — Material de referencia para estudiar el contenido del tema.
+- 🏋️ **Workout** — Ejercicios prácticos que se realizan de forma guiada desde el Campus Virtual, acompañados de un vídeo explicativo. Son el núcleo del aprendizaje autónomo antes de la Live Review.
+- 📝 **Ejercicios Workout** *(opcionales)* — Ejercicios adicionales para afianzar lo trabajado en el Workout a tu propio ritmo.
+- 🎥 **Live Review (LR)** — Sesión en vivo donde se repasan y profundizan los conceptos de la Unidad. Por Sprint se celebran **2 Live Reviews**.
+- 🤝 **Team Challenge (TC)** — Sesión en vivo con formato variable: a veces trabajaréis en grupo, otras ampliaremos conocimientos y otras dedicaremos el tiempo a practicar.
+- ✅ **Práctica Obligatoria** — Ejercicio de consolidación que recomendamos completar antes de asistir a la Live Review correspondiente.
 
-**¿Qué aprenderás?**
+> **¿No puedes asistir a una sesión?** No te preocupes. Las grabaciones se subirán al Campus Virtual en cuanto estén listas.
 
-* Qué es Git y GitHub, y por qué son esenciales en desarrollo
-* Cómo configurar tu cuenta de GitHub e instalar Git
-* Clonar el repositorio de clase y mantenerlo actualizado
-* Crear tu propio repositorio para los ejercicios del bootcamp
-* Comandos básicos de Git y la terminal
-* Cómo resolver errores comunes
+## **Estructura de los Sprints**
 
----
+Dentro de cada Sprint encontrarás carpetas organizadas por Unidades. A su vez, cada Unidad puede contener las siguientes subcarpetas:
 
-### 💻 2. VSCode para Trabajar con Ficheros
+| Carpeta | Descripción |
+|---|---|
+| `Ejercicios_Warmup` | En algunos casos. Ejercicios de calentamiento para repasar conceptos previos antes de entrar en materia. |
+| `Teoria` | Notebooks explicativos con la teoría del tema. Material de referencia para estudiar el contenido. |
+| `Workout` | Notebooks del Workout. Se realizan desde el Campus acompañados de un vídeo explicativo para aprender el contenido antes de la Live Review. |
+| `Ejercicios_Workout` | *(Opcionales)* Ejercicios adicionales para afianzar lo aprendido en el Workout. |
+| `Practica_Obligatoria` | Práctica obligatoria. Se recomienda completarla antes de asistir a la Live Review correspondiente. |
+| `Live_Session` | En algunos casos. Tendrá la misma función que _Práctica obligatoria_ en algunas _Unidad 3_s. |
 
-🔗 [Abrir documento](./guia_vscode.md)
 
-Esta guía te introduce a Visual Studio Code, el editor que usarás para escribir y editar código Python, Jupyter notebooks y otros archivos.
+## **Comentarios y Aclaraciones**
 
-**¿Qué aprenderás?**
+El repositorio se irá actualizando a medida que avancemos en el Bootcamp, incorporando los materiales de los diferentes módulos, agrupados en Sprints y Live Reviews.
 
-* Instalación y configuración inicial de VSCode
-* Interfaz principal: explorador, editor, terminal integrada
-* Cómo abrir, crear y organizar archivos y carpetas
-* Atajos de teclado y búsqueda avanzada
-* Extensiones esenciales para el desarrollo Python
-* Trabajar con Jupyter notebooks (.ipynb) y kernels
-* Guardar, sincronizar y resolver errores comunes
+Siguiendo esta filosofía, los Sprints se abrirán de forma sincronizada con el Campus Virtual, según las fechas de apertura indicadas en el calendario del Bootcamp.
 
----
+## **Clonar y Actualizar Repositorio con Git Bash**
 
-### ☁️ 3. Google Colab para los Workouts
+### Opción A — Clonar
 
-🔗 [Abrir documento](./guia_uso_colab.md)
+Con `git clone` te descargas una copia local del repositorio vinculada al original. Puedes hacer `git pull` en cualquier momento para recibir las actualizaciones que vayamos subiendo.
 
-Esta guía te explica cómo usar Google Colab, la plataforma en la nube donde trabajarás con los notebooks de los Workouts del bootcamp.
+1. Moverse a la carpeta local en la que deseamos clonar el repo. Por ejemplo:  
+`cd Documents/Repositorios_curso`
 
-**¿Qué aprenderás?**
+2. Abrir Git Bash en ese directorio.
 
-* Qué es Google Colab y sus similitudes con VSCode
-* Configuración inicial: conectar GitHub a Colab
-* Cómo abrir Workouts directamente en Colab
-* Ejecución de celdas y gestión de notebooks en la nube
-* Alternativa: trabajar localmente con VSCode
-* Limitaciones de Colab y cómo resolverlas
-* Solución de errores comunes
+3. Clonar el repositorio:  
+`git clone https://github.com/aie-online-tb/AIE-Online.git`
 
----
+4. Para obtener las últimas actualizaciones:  
+`git pull`
 
-## 🚀 Plan de Acción
+### Opción B — Fork 
 
-Para aprovechar al máximo el bootcamp, sigue estos pasos **antes de la Sesión 1 (Martes 26 de Mayo)**:
+Un **fork** crea una copia completa del repositorio en tu propia cuenta de GitHub. Esto te permite hacer `git push` de tus ejercicios y cambios a tu fork personal sin afectar al repositorio original.
 
-### 1️⃣ Lee las guías
+Para hacer un fork:
 
-Dedica tiempo a leer las tres guías en este orden:
-1. [GitHub y tu Repositorio de Clase](./guia_uso_git.md) — Comienza aquí si es tu primer contacto con Git
-2. [VSCode para Trabajar con Ficheros](./guia_vscode.md) — Configura tu editor
-3. [Google Colab para los Workouts](./guia_uso_colab.md) — Conecta Colab con GitHub
+1. Pulsa el botón **Fork** en la esquina superior derecha de la página del repositorio en GitHub.
+2. Clona tu fork (no el original) en local:  
+`git clone https://github.com/TU_USUARIO/AIE-Online.git`
+3. Para recibir las actualizaciones del repo original, añádelo como remoto adicional:  
+`git remote add upstream https://github.com/aie-online-tb/AIE-Online.git`
+4. Y cuando haya novedades, sincroniza:  
+`git pull upstream main`
 
-### 2️⃣ Configura tus herramientas 
-
-Sigue las instrucciones de cada guía para:
-- ✅ Crear una cuenta de GitHub (o usar la existente)
-- ✅ Instalar Git en tu ordenador
-- ✅ Descargar e instalar VSCode
-- ✅ Acceder a Google Colab
-- ✅ Conectar Colab con tu repositorio de GitHub
-
-### 3️⃣ Prueba que funciona 
-
-- ✅ Clona el repositorio de clase en tu ordenador
-- ✅ Abre un archivo en VSCode
-- ✅ Abre un notebook en Colab desde GitHub
-- ✅ Ejecuta una celda simple para verificar que funciona
-
-### 4️⃣ Llega preparado a la Sesión 1
-
-Si algo no funciona o tienes dudas:
-- 💬 Pregunta a los profesores o compañeros en el Welcome Day
-- 📖 Vuelve a revisar la sección "Errores Comunes" de cada guía
-- 🔍 Busca el error en Google con el texto exacto del mensaje
-
----
-
-¡Estamos listos para una gran aventura en AI Engineering! 🚀
+> **En resumen:** usa **clone** si solo quieres seguir el material; usa **fork** si además quieres versionar tus propias soluciones y ejercicios.

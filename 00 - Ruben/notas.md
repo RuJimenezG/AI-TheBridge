@@ -32,7 +32,8 @@ https://ai.google.dev/gemini-api/docs?hl=es-419
 python -m venv venv
 
 Activar
-source venv/Scripts/activate
+source .venv/Scripts/activate (bash)
+.\.venv\Scripts\Activate.ps1 (powershell)
 
 Desactivar
 deactivate
@@ -52,3 +53,5 @@ Rubén Jiménez Gutiérrez
 Miguel Gerardo López Iraheta
 Guzmán López Barceló
 David Cruz Puri
+
+#### Investigar workspaces de Visual Studio Code

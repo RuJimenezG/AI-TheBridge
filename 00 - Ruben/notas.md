@@ -53,7 +53,7 @@ import os
 from dotenv import load_dotenv
 después usar VARIABLE = os.getenv('VARIABLE dentro del archivo')
 
-## Entrega del Team Challenge del sprint 3 el 2 de julio
+## TEAM CHALLENGE 1. Sprint 3 y 4 . Entrega el 2 de julio
 Equipos: https://docs.google.com/spreadsheets/d/1SjZo-LYYY3UdOYthKE4zksahOnUahYlXAR5au_Si9Fs/edit?pli=1&gid=0#gid=0
 Equipo 02:
 Rubén Jiménez Gutiérrez
@@ -61,12 +61,17 @@ Miguel Gerardo López Iraheta
 Guzmán López Barceló
 David Cruz Puri
 
-## Entrega del Team Challenge del sprint 6 el 23 de julio
+## TEAM CHALLENGE 2. Sprint 5 a 7. Entrega el 2 de julio
+
+Grupo 2:
+
+• Rubén Jiménez Gutiérrez.
+• Miguel Gerardo Lopez Iraheta.
+• Guzmán López Barceló.
+• David Cruz Puri.
 
 
-
-
-# Deberes para agosto
+# Auto Deberes para agosto
 - Investigar workspaces de Visual Studio Code
 - Revisar el primer sprint de modularización (Sprint 2, Unidad 2).
 - Revisar en detalle los 3 proyectos del sprint 5.

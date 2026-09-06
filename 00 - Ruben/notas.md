@@ -75,3 +75,15 @@ Grupo 2:
 - Investigar workspaces de Visual Studio Code
 - Revisar el primer sprint de modularización (Sprint 2, Unidad 2).
 - Revisar en detalle los 3 proyectos del sprint 5.
+
+
+# Project break
+
+Tiempo 100 % para el trabajo (sin clases).
+
+Las semanas del 7/9 y 14/9 no hay clase normal, pero tenemos:
+- 7/9 para revisar la práctica de SQL
+- 9/9 microcredencial
+
+Volvemos el 21/9, el sprint 11 se libera el miércoles 16/9.
+24/9 presentaciones del project break, presentación obligatoria.
